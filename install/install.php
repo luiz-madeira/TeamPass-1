@@ -209,7 +209,7 @@ echo '
                 </label>
             </td>
             <td>
-                <input type="text" id="sk_path" value="" style="width:350px;" />&nbsp;<span id="res4_check2"></span>
+                <input type="text" id="sk_path" value="/var/www/html/sk" style="width:350px;" />&nbsp;<span id="res4_check2"></span>
             </td>
 
             <div class="line_entry">
