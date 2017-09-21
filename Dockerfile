@@ -25,7 +25,7 @@ echo
 COPY teampass-docker-start.sh /teampass-docker-start.sh
 
 # Configure nginx-php-fpm image to pull our code.
-ENV REPO_URL https://github.com/nilsteampassnet/TeamPass.git
+ENV REPO_URL https://github.com/luiz-madeira/TeamPass-1.git
 
 ENTRYPOINT ["/bin/sh"]
 CMD ["/teampass-docker-start.sh"]
