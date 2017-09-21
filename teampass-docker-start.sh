@@ -7,7 +7,7 @@ then
 	chown -Rf nginx:nginx ${VOL}
 fi
 
-if [ -f ${VOL}/www/includes/config/settings.php ] ;
+if [ -f ${VOL}/www/includes/config/settings.php ];
 then
 	echo "Teampass is ready."
 	rm -rf ${VOL}/www/install
